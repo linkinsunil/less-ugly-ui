@@ -2,6 +2,28 @@
 
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
+:root {
+    --primary-color: #374151;
+    --dark--grey: #D1D5DB;
+    --off-white: #F9FAFB;
+}
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+hr {
+    margin: 2rem 0rem;
+}
+.container{
+    padding: 0rem 1rem 2rem;  
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
 }
